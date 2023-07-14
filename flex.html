@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: blueviolet;
+            color: azure;
+            padding: 20px;
+        }
+
+        .container-2{
+            display: flex;
+            margin-top:10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .boxs{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+
+        @media screen and (max-width: 576px){
+           .container{
+               flex-direction: column;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3> First Box</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic quod voluptates doloribus nobis sequi non illum est explicabo maxime, vel culpa porro laborum pariatur, dolorum totam veritatis! Quod natus ratione at, enim delectus optio dicta, quas aspernatur tenetur eveniet dolorem provident quos nobis dolor reiciendis, sunt nostrum totam ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam pariatur autem nulla minima quos, voluptatibus ullam! Molestiae hic amet maiores! </p>
+           
+        </div>
+        <div class="box">
+            <h3>Second Box</h3>
+            <p>Dicta dolor fugiat repellendus odio, molestiae debitis laborum nihil repellat deserunt nisi, tempora optio error asperiores, nemo minima vitae? Suscipit architecto ducimus ea autem eveniet nostrum et vel ullam at. Totam explicabo aspernatur expedita at cumque, culpa laboriosam quia ratione, dignissimos voluptatum eligendi qui nisi placeat? Error praesentium at debitis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate est obcaecati dolorem dicta officiis mollitia quaerat consequuntur error totam doloremque! </p>
+            
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+    </div>
+</body>
+</html>
